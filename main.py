@@ -1,12 +1,12 @@
 """Entry for make.fun bounty "The One-Line Cat Joke That Lands".
 
-Entry text (148 characters, limit: under 200 characters).
+Entry text (147 characters, limit: under 200 characters).
 No trailing newline is written, per the bounty text format.
 """
 
 import os
 
-ENTRY = 'My cat sat on my keyboard, typed a better password than mine, then deleted it, because some art is meant to be experienced once and never recovered.'
+ENTRY = 'My cat sat on my keyboard, typed a better password than mine, then deleted it, because some art is meant to be experienced once, then lost forever.'
 
 def main():
     out_dir = os.environ.get("OUTPUT_DIR", "/output")
